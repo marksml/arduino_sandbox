@@ -46,12 +46,12 @@ Adafruit_VS1053_FilePlayer musicPlayer =
 
 
 //define tracks
-char* tracks[] = {"track005.mp3","track006.mp3","track002.mp3","track003.mp3"};
+char* tracks[] = {"track001.mp3","track002.mp3","track003.mp3","track004.mp3","track005.mp3","track006.mp3","track007.mp3","track008.mp3","track009.mp3","track010.mp3"};
 //char** tracks = new char*[1000];
 //int index = 0;
 
 int trackNumber = 0;
-int numberOfTracks = 4;
+int numberOfTracks = 10;
 boolean stopped = false;
 boolean paused = false;
 
